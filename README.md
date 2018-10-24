@@ -7,7 +7,7 @@
 
 * Player management
    - [esx_society](https://github.com/ESX-Org/esx_society)
-   - [esx_billin](https://github.com/FXServer-ESX/fxserver-esx_billing)
+   - [esx_billing](https://github.com/FXServer-ESX/fxserver-esx_billing)
 
 ## Installation
 - Import `esx_fuelerjob.sql` in your database
