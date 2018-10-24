@@ -3,17 +3,18 @@
 ## Requirements
 
 * Auto mode
-   - [esx_skin](https://github.com/ESX-Org/esx_skin)
+   - [esx_service](https://github.com/FXServer-ESX/fxserver-esx_service)
 
-* Player management (boss actions **There is no way to earn money for now**)
+* Player management
    - [esx_society](https://github.com/ESX-Org/esx_society)
+   - [esx_billin](https://github.com/FXServer-ESX/fxserver-esx_billing)
 
 ## Installation
-- Import `esx_ambulancejob.sql` in your database
+- Import `esx_fuelerjob.sql` in your database
 - If you want player management you have to set `Config.EnablePlayerManagement` to `true` in `config.lua`
 - Add this in your `server.cfg`:
 
 ```
-start esx_ambulancejob
+start esx_fuelerjob
 ```
 
